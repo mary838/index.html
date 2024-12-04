@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sams";
+}
+.container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: black;
+  margin: auto;
+}
+.menu {
+  width: 1000px;
+  height: 60px;
+  /* bacbackground-color: darkmagenta;kground-color: darkmagenta; */
+  margin: auto;
+  border-radius: 15px;
+}
+.logo {
+  width: 50px;
+  height: 40px;
+  background-color: rgb(29, 190, 34);
+  padding: 10px;
+  /* margin-left: 15px; */
+  border-radius: 20px;
+  float: left;
+  margin-top: 10px;
+}
+.logo image {
+  width: 100%;
+  height: 100%;
+}
+/* .logo h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+  } */
+.letter {
+  width: 90px;
+  height: 60px;
+  /* background-color: yellow; */
+  float: left;
+}
+.letter h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.menu-1 {
+  width: 700px;
+  height: 80px;
+  /* background-color: blue; */
+  margin-left: 280px;
+  margin-left: 450px;
+}
+span {
+  color: aqua;
+}
+.menu-1 ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.menu-1 ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-1 ul li a:hover {
+  color: darkmagenta;
+  transition: 0, 3s;
+}
+.project {
+  width: 150px;
+  height: 100px;
+  /* background-color: blanchedalmond; */
+  margin-left: 40px;
+}
+.project h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.box-project {
+  width: 97%;
+  height: 500px;
+  /* background-color: darkred; */
+  margin: auto;
+}
+/* .d-flex {
+  display: flex;
+} */
+.project-demo {
+  width: 60%;
+  height: 90%;
+  /* background-color: blue; */
+  /* display: flex; */
+  float: left;
+}
+.box-1 {
+  width: 45%;
+  height: 100%;
+  background-color: chocolate;
+  margin-left: 30px;
+  float: left;
+}
+.box-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-name {
+  width: 40%;
+  height: 60%;
+  /* background-color: aqua; */
+  float: left;
+  /* display: flex; */
+}
+.title-project {
+  width: 70%;
+  height: 20%;
+  /* background-color: maroon; */
+  margin: auto;
+}
+.title-project h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pharagraph {
+  width: 100%;
+  height: 80%;
+  /* background-color: black; */
+}
+.pharagraph p {
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+}
+.footer {
+  width: 500px;
+  height: 30px;
+  /* background-color: beige; */
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.footer p {
+  font-size: 15px;
+  color: white;
+}
+
+.website {
+  width: 300px;
+  height: 30px;
+  /* background-color: blueviolet; */
+  display: flex;
+  margin-left: 525px;
+  margin-top: 30px;
+}
+.website p {
+  font-size: 15px;
+  color: white;
+}
+.flex {
+  display: flex;
+}
