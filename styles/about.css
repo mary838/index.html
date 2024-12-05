@@ -13,33 +13,35 @@
   margin: auto;
 }
 .menu {
-  width: 98%;
+  width: 97%;
   height: 60px;
-  /* background-color: darkmagenta; */
+  /* background-color: blue; */
   margin: auto;
   border-radius: 15px;
 }
 .logo {
   width: 50px;
-  height: 40px;
+  height: 50px;
   background-color: rgb(29, 190, 34);
-  padding: 10px;
+
   /* margin-left: 15px; */
   border-radius: 20px;
   float: left;
-  margin-top: 10px;
+  margin-top: 5px;
 }
-.logo image {
-  width: 100%;
-  height: 100%;
+.logo img {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 20px;
 }
 /* .logo h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 50px;
-  } */
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+} */
 .letter {
   width: 90px;
   height: 60px;
@@ -85,6 +87,22 @@ span {
 .menu-1 ul li a:hover {
   color: darkmagenta;
   transition: 0, 3s;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
+}
+.dcc-1 {
+  width: 250px;
+  height: 100px;
+  /* background-color: azure; */
+  margin: auto;
+}
+.dcc-1 h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  line-height: 150px;
+  /* list-style-type: circle; */
 }
 .photo {
   width: 450px;
@@ -96,8 +114,8 @@ span {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: pink;
-  margin-top: 70px;
+  border: 3px solid white;
+  margin-top: 20px;
   margin-left: 120px;
 }
 .image img {
@@ -106,17 +124,31 @@ span {
   object-fit: cover;
   border-radius: 50%;
 }
+@keyframes floadImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.image {
+  animation: floadImage 4s ease-in-out infinite;
+}
 .story {
-  width: 585px;
+  width: 90%;
   height: 500px;
   /* background-color: aquamarine; */
   display: flex;
 }
 .story-1 {
-  width: 560px;
+  width: 95%;
   height: 400px;
   /* background-color: hotpink; */
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .story-1 p {
   color: beige;
